@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+	</title>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#bu').click(function(){
+		$('h1').html("hello world").css( "color", "red")
+		
+		});
+	});
+	$(document).ready(function(){
+		$('#ton').click(function(){
+		$('#class').hide("2000");
+	
+		});
+	});
+	$(document).ready(function(){
+		$('#pp').click(function(){
+		$('p').hide("1000");
+	
+		});
+	});
+	$(document).ready(function(){
+		$('#po').click(function(){
+		$('panel').slideup();
+	
+		});
+	});
+	
+	</script>
+</head>
+<body>
+	<div id="class" style="width:500; background: url(https://static.pexels.com/photos/39517/rose-flower-blossom-bloom-39517.jpeg);font-size: 20px">
+	
+	<h1>hello world.</h1>
+	
+	<ul>
+	  <li><strong>Blue</strong> Jeans</li>
+	  <li>Denim</li>
+	  <li>Chambray</li>
+	  <li>Dark Wash</li>
+	  <li>Light Wash</li>
+	</ul>
+	</div>
+	<button id="bu">click me</button>
+	<button id="ton">hide</button>
+		<p>
+			A flower, sometimes known as a bloom or blossom, is the reproductive structure found in plants that are floral (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to effect reproduction, usually by providing a mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals in a population) or allow selfing (fusion of sperm and egg from the same flower). Some flowers produce diaspores without fertilization (parthenocarpy). Flowers contain sporangia and are the site where gametophytes develop. Many flowers have evolved to be attractive to animals, so as to cause them to be vectors for the transfer of pollen. After fertilization, the ovary of the flower develops into fruit containing seeds
+		</p>
+	<button id="pp">show</button>
+
+	<div id="panel" style="width: 500;background-color: grey">
+		<p id="c">
+			In addition to facilitating the reproduction of flowering plants, flowers have long been admired and used by humans to bring beauty to their environment, and also as objects of romance, ritual, religion, medicine and as a source of food.</p>
+	</div>
+	<button id="po">show more</button>
+</body>
+</html>
+
